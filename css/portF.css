@@ -1,0 +1,863 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bgblack {
+    background-color: black;
+}
+
+.bglightpink {
+    background-color: white;
+}
+
+.bg_skyblue {
+    color: navy;
+}
+
+.bg_red {
+    color: red;
+}
+
+.bg_white {
+    color: lemonchiffon;
+}
+
+.bg_powderedblue {
+    color: lightseagreen;
+}
+
+.bg_blue {
+    color: lightskyblue;
+}
+
+
+/* profile content */
+
+.profilebar {
+    height: 100vh;
+    width: 20%;
+    position: fixed;
+    background-color: black;
+    background-size: cover;
+    float: left;
+    text-align: center;
+    color: white;
+}
+
+.profileimage {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    margin: 0px 20px;
+    margin-top: 25px;
+    border: 5px solid rgb(182, 7, 7);
+    image-resolution: 200dpi;
+}
+
+.profilebar h3 {
+    font-size: 23px;
+    margin: 20px 20px;
+}
+
+.socialicons {
+    font-size: 25px;
+    border-radius: 50%;
+    text-decoration: none;
+    text-align: center;
+    margin: 0px 5px;
+    margin-top: 10px;
+    clear: both;
+    color: whitesmoke;
+    border: 4px solid rgba(0, 0, 0, 0.5);
+}
+
+.menubar {
+    margin-top: 30px;
+}
+
+.menubar nav ul {
+    list-style-type: none;
+}
+
+.menubar nav ul li {
+    width: 80%;
+    padding-left: 40px;
+    margin-bottom: 10px;
+    line-height: 50px;
+    text-align: left;
+}
+
+.menubar nav ul li a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    box-sizing: border-box;
+    vertical-align: middle;
+    word-spacing: 5px;
+}
+
+
+/* profile content */
+
+
+/*profile content bar */
+
+.content {
+    width: 80%;
+    float: right;
+}
+
+.frontpage {
+    width: 100%;
+    height: 100vh;
+    float: right;
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #f0eaf175;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.frontpage h1 {
+    text-align: left;
+    color: deeppink;
+    font-size: 70px;
+    font-family: 'Goblin One', cursive;
+    line-height: 50px;
+}
+
+.heading {
+    position: relative;
+    height: 50px;
+    color: mediumvioletred;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px 0px;
+    vertical-align: middle;
+    line-height: 50px;
+    overflow: hidden;
+}
+
+
+/* aboutme bar */
+
+.personaldetail {
+    width: 100%;
+    float: right;
+}
+
+.personalinfo {
+    width: 80%;
+    background-color: blue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.profileinfomainbox {
+    width: 33.333%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.profileinfosubbox {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    text-align: left;
+    padding: 10px;
+}
+
+.personaldetail img {
+    width: 80%;
+    height: 200px;
+    border: 5px dashed darkslategrey;
+}
+
+.personalintro {
+    width: 100%;
+}
+
+.introduction {
+    text-align: justify;
+    color: darkslategrey;
+    font-size: 19px;
+    margin: 10px;
+}
+
+
+/* aboutme section  end*/
+
+
+/* myskill Section */
+
+.myskill {
+    width: 100%;
+    float: left;
+    margin: auto;
+}
+
+.myskilllanguages {
+    width: 50%;
+    height: 300px;
+    float: right;
+    position: static;
+    box-sizing: border-box;
+}
+
+.languages {
+    position: relative;
+    height: 10px;
+    width: 350PX;
+    background-color: lightgray;
+    margin-left: 80PX;
+    overflow: hidden;
+}
+
+.languages::before {
+    content: '';
+    position: absolute;
+    background-color: rgb(111, 13, 156);
+    height: 10px;
+    width: 300PX;
+    left: -20%;
+}
+
+.myskilllanguages h5 {
+    height: 20px;
+    width: 150px;
+    color: darkslategrey;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding-left: 80PX;
+}
+
+
+/* myskill section end*/
+
+
+/* edducation section */
+
+.educatoion {
+    width: 100%;
+    float: left;
+}
+
+.bachelors {
+    width: 80%;
+    margin: 40px 20px 60px 80px;
+    border: 2px solid olivedrab;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+.bachelors p {
+    color: darkslategrey;
+    text-align: left;
+    padding: 10px 10px 10px;
+    font-size: 20px;
+}
+
+
+/* edducation section end */
+
+
+/* portfolio section */
+
+.portfolio {
+    width: 100%;
+    float: left;
+}
+
+.menu {
+    width: 80%;
+    background-color: teal;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.menu nav {
+    text-align: center;
+}
+
+.menu nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.menu nav ul li {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.menu nav ul li a {
+    text-align: left;
+    padding-left: 5px;
+    float: left;
+    text-decoration: none;
+    margin: 10px 30px;
+    color: white;
+    font-size: 20px;
+}
+
+.template {
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.imagebox {
+    width: 33.333%;
+    float: left;
+    /* background-color: blueviolet; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.imagesubbox {
+    position: relative;
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.viewbar {
+    position: absolute;
+    top: -100%;
+    width: 95%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.158);
+    box-sizing: border-box;
+}
+
+.viewbar h6 {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 60px;
+    color: orange;
+}
+
+.imagesubbox:hover .viewbar {
+    top: 10px;
+    border-radius: 10px;
+}
+
+.imagesubbox img {
+    width: 100%;
+    height: 200px;
+}
+
+
+/* portfolio section end */
+
+
+/* contect section */
+
+.contactsection {
+    width: 100%;
+    float: left;
+}
+
+.contectsectionrow {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contactbox {
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    padding: 15px;
+}
+
+.contactsubbox {
+    width: 100%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    box-shadow: 5px 5px 5px lightgrey;
+    background-color: whitesmoke;
+}
+
+.imputnameemail {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 20px 0px;
+    padding: 0px 20px;
+}
+
+.nameandemailtextbox {
+    width: 50%;
+    height: 20px;
+    border: 1px solid darkslategrey;
+    margin: 0px 5px;
+    text-align: left;
+    padding: 10px 10px;
+}
+
+.submsgbox {
+    width: 100%;
+    margin: 20px 5px;
+    box-sizing: border-box;
+    padding: 0px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subjectbox {
+    width: 100%;
+    height: 40px;
+    border: 1px solid darkslategrey;
+    margin: 0px 5px;
+    text-align: left;
+    padding: 10px 10px;
+    margin: 20px 5px;
+}
+
+.msgbox {
+    width: 100%;
+    height: 110px;
+    border: 1px solid darkslategrey;
+    margin: 0px 5px;
+    text-align: left;
+    padding: 10px 10px;
+    margin: 20px 5px;
+}
+
+.button {
+    height: 50px;
+    width: 150px;
+    margin-bottom: 26px;
+    background-color: dodgerblue;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contectsectionrow1 {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.inputname {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.inpunamesubbox {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 13px;
+    border: 2px solid blue;
+}
+
+.inputsubject {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.inputsubjectsubbox {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 13px;
+    border: 2px solid blue;
+}
+
+.inputmassage {
+    width: 100%;
+    font-size: 13px;
+    box-sizing: border-box;
+    border: 2px solid blue;
+}
+
+.inputbutton {
+    width: 100%;
+    font-size: 13px;
+    box-sizing: border-box;
+    border: 2px solid blue;
+    text-align: center;
+}
+
+.submitbutton {
+    height: 40px;
+    width: 120px;
+    color: white;
+    margin: auto;
+}
+
+.address {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    color: darkslategrey;
+    background-color: whitesmoke;
+}
+
+
+/* .googlemap {
+    width: 100%;
+    margin-top: 10px;
+    box-sizing: border-box;
+} */
+
+.googlemap img {
+    height: 260px;
+    width: 100%;
+}
+
+
+/* contect section end */
+
+@media screen and (max-width:426px) {
+    .profilebar {
+        width: 100%;
+        height: 350px;
+        position: relative;
+    }
+    .profileimage {
+        height: 170px;
+        width: 170px;
+        margin-top: 20px;
+    }
+    .profilebar h3 {
+        font-size: 23px;
+        margin: 20px 10px;
+    }
+    .socialicons {
+        font-size: 30px;
+        text-align: center;
+        margin: 0px 5px;
+        margin-top: 10px;
+    }
+    .menubar {
+        display: none;
+        margin-top: 10px;
+    }
+    .menubar nav ul {
+        list-style-type: none;
+    }
+    .menubar nav ul li {
+        width: 100%;
+        padding-left: 30px;
+        margin-bottom: 10px;
+        line-height: 40px;
+        text-align: left;
+    }
+    .menubar nav ul li a {
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+        box-sizing: border-box;
+        vertical-align: middle;
+        word-spacing: 5px;
+    }
+    .content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .frontpage {
+        display: none;
+        float: left;
+        width: 100%;
+    }
+    .personalinfo {
+        width: 100%;
+        background-color: blue;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .profileinfosubbox {
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+        text-align: left;
+        padding: 10px;
+    }
+    .personaldetail img {
+        width: 80%;
+        height: 200px;
+        margin-left: 25px;
+    }
+    .personalintro {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+    .introduction {
+        color: darkslategrey;
+        white-space: 2px;
+        font-size: 19px;
+        margin: 0px 10px;
+    }
+    .profileinfomainbox {
+        width: 100%;
+    }
+    .myskilllanguages {
+        width: 100%;
+        height: 230px;
+        position: static;
+        box-sizing: border-box;
+        padding: 0px;
+        margin: 0px 20px;
+    }
+    .myskill {
+        width: 70%;
+        float: right;
+    }
+    .languages {
+        height: 10px;
+        width: 250PX;
+        padding: 0px;
+        margin: 0px;
+        padding-right: 0px;
+    }
+    .myskilllanguages h5 {
+        text-align: left;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 20px;
+        padding-left: 0PX;
+    }
+    .languages::before {
+        content: '';
+        position: absolute;
+        background-color: rgb(111, 13, 156);
+        height: 10px;
+        width: 230PX;
+        left: -20%;
+    }
+    .educatoion {
+        float: left;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .bachelors {
+        width: 90%;
+        margin: 10px 10px;
+        border: 2px solid olivedrab;
+        border-radius: 20px;
+        padding-left: 10px;
+    }
+    .contactbox {
+        width: 100%;
+    }
+    .portfolio {
+        width: 100%;
+        float: left;
+    }
+    .menu {
+        display: none;
+    }
+    .imagebox {
+        width: 100%;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+    }
+    .heading {
+        margin: 10px 0px;
+    }
+}
+
+@media screen and (max-width:769px) and (min-width:426px) {
+    .profilebar {
+        width: 30%;
+        height: 100vh;
+        position: fixed;
+    }
+    .profileimage {
+        height: 170px;
+        width: 170px;
+        margin-top: 20px;
+    }
+    .profilebar h3 {
+        font-size: 20px;
+        margin: 20px 20px;
+    }
+    .socialicons {
+        font-size: 20px;
+        text-align: center;
+        margin: 0px 5px;
+        margin-top: 10px;
+    }
+    .menubar {
+        margin-top: 10px;
+    }
+    .menubar nav ul {
+        list-style-type: none;
+    }
+    .menubar nav ul li {
+        width: 100%;
+        padding-left: 30px;
+        margin-bottom: 0px;
+        line-height: 45px;
+    }
+    .menubar nav ul li a {
+        font-size: 15px;
+        color: white;
+        text-decoration: none;
+        box-sizing: border-box;
+        vertical-align: middle;
+        word-spacing: 5px;
+    }
+    .content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 70%;
+    }
+    .frontpage {
+        float: right;
+        width: 100%;
+    }
+    .frontpage h1 {
+        text-align: left;
+        color: deeppink;
+        font-size: 40px;
+        font-family: 'Goblin One', cursive;
+        line-height: 50px;
+    }
+    .personalinfo {
+        width: 100%;
+        background-color: blue;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .profileinfosubbox {
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+        text-align: left;
+        padding: 10px 0px;
+        padding-left: 10px;
+    }
+    .personaldetail img {
+        width: 80%;
+        height: 300px;
+        margin-left: 35px;
+    }
+    .personalintro {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+    .introduction {
+        text-align: justify;
+        color: darkslategrey;
+        white-space: 2px;
+        font-size: 19px;
+        margin: 10px 10px;
+    }
+    .profileinfomainbox {
+        width: 100%;
+    }
+    .myskilllanguages {
+        width: 100%;
+        height: 230px;
+        position: static;
+        box-sizing: border-box;
+        padding: 0px;
+    }
+    .myskill {
+        width: 80%;
+        float: right;
+    }
+    .languages {
+        height: 10px;
+        width: 450PX;
+        padding: 0px;
+        margin: 0px;
+        padding-right: 0px;
+    }
+    .myskilllanguages h5 {
+        text-align: left;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 20px;
+        padding-left: 0PX;
+    }
+    .languages::before {
+        content: '';
+        position: absolute;
+        background-color: rgb(111, 13, 156);
+        height: 10px;
+        width: 400PX;
+        left: -20%;
+    }
+    .educatoion {
+        box-sizing: border-box;
+        float: left;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .bachelors {
+        width: 90%;
+        margin: 10px 10px;
+        border: 2px solid olivedrab;
+        border-radius: 20px;
+        padding-left: 20px;
+        margin-left: 20px;
+    }
+    .contactbox {
+        width: 100%;
+        margin: auto;
+        margin-left: 5px;
+    }
+    .portfolio {
+        width: 100%;
+        float: left;
+    }
+    .menu {
+        display: none;
+    }
+    .imagebox {
+        width: 50%;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+    }
+    .heading {
+        margin: 10px 0px;
+    }
+}
